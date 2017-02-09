@@ -1,0 +1,14 @@
+{
+  "name": "helhum/upload-example",
+  "type": "typo3-cms-extension",
+  "description": "Just examples for a Blog Post",
+  "license": "GPL",
+  "autoload": {
+    "psr-4": {
+      "Helhum\\UploadExample\\": "Classes"
+    }
+  },
+  "replace": {
+    "upload_example": "self.version"
+  }
+}
